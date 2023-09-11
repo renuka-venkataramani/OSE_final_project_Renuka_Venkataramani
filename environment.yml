@@ -1,0 +1,69 @@
+name: dl_project
+channels:
+  - huggingface
+  - pytorch
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipywidgets
+  - conda-lock
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - pdbpp
+  - pip >=21.1
+  - plotly>=5.13.0
+  - pre-commit
+  - pytask-latex
+  - pytask-parallel
+  - pytask>=0.2
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - python-graphviz
+  - python=3.11
+  - pyyaml
+  - setuptools_scm
+  - statsmodels
+  - toml
+  - pip: [-e ., kaleido]
+
+  # basics
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - selenium = 4.9.0
+  - beautifulsoup4
+  - tweepy
+  - python-dotenv=1.0.0
+  - webdriver-manager=4.0.0
+  - nltk
+  - pyspellchecker
+  - emoji 
+  
+  # sklearn
+  - scikit-learn
+  - scikit-image
+
+
+  # huggingface
+  - transformers
+  - tokenizers
+  - datasets
+  - sentencepiece
+
+  - pip
+  - pip:
+    # pytorch
+    - torch
+    - torchvision
+    - torchtext
+    - huggingface_hub[cli]
+
+
+
+  
