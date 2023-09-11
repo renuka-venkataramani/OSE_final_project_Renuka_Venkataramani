@@ -23,6 +23,12 @@ Cryptocurrencies represent a rapidly evolving market with a wide range of projec
 
 ### 1.1. Guidelines to run the project
 <a name="Guidelines-to-run-the-project"></a>
+
+Activate the environment as follows:
+
+```javascript
+conda activate dl_project
+```
  **main_file.ipynb** contains all the codes and the output. This file imports functions from different other .py files. 
 
 ### 1.2. Project Manual
